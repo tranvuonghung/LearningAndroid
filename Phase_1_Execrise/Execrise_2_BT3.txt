@@ -1,0 +1,12 @@
+Var text: string? = null
+println(text!!.length)
+
+
+1. code có biên dịch được ko ?
+- không biên dịch đc
+
+2. khi chạy có xảy ra điều gì ?
+- sẽ báo lỗi vì !! khẳng định là có dữ liệu nhưng dữ liệu null là không tồn tại
+
+3. vì sao Kotlin cho phép viết nhưng chương trình vẫn crash?
+- tại vì nó đọc cú pháp đúng nhưng runtime lại sai
